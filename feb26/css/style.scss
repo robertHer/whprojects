@@ -1,0 +1,47 @@
+body{
+background-color: red;
+color: whitesmoke;
+font-family: cursive;
+}
+
+// header img{
+//     display: flex;
+
+// }
+
+nav{
+border: 10px dashed green;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    background-color: blue;
+}
+
+main{
+display: flex;
+flex-wrap: wrap;
+// flex-direction: column-reverse;
+}
+
+article{
+    width: 75%;
+    background-color: midnightblue;
+    // float: left;
+}
+aside{
+    width: 25%;
+    
+    // float: left;
+
+}
+
+section{
+    width:100%;
+    background-color: darkseagreen;
+}

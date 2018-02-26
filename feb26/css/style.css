@@ -1,0 +1,38 @@
+body {
+  background-color: red;
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+nav {
+  border: 10px dashed green;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  background-color: blue;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 75%;
+  background-color: midnightblue;
+}
+
+aside {
+  width: 25%;
+}
+
+section {
+  width: 100%;
+  background-color: darkseagreen;
+}
+/*# sourceMappingURL=style.css.map */
