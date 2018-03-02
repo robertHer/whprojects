@@ -1,0 +1,29 @@
+body {
+  background-color: #b8ccda;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+section {
+  height: 600px;
+  background-color: maroon;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+div {
+  flex: 1;
+  font-size: 100px;
+  color: white;
+  background-color: #916018;
+  margin: 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

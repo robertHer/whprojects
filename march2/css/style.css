@@ -1,0 +1,36 @@
+html {
+  background-color: #f7debd;
+}
+
+p {
+  color: #0ab118;
+}
+
+.examp {
+  color: yellowgreen;
+}
+
+.who {
+  color: teal;
+}
+
+.one {
+  color: maroon;
+}
+
+#apple {
+  color: black;
+}
+
+div {
+  color: ghostwhite;
+}
+
+span {
+  color: purple;
+}
+
+div span {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
