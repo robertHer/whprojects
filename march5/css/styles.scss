@@ -1,0 +1,37 @@
+ main{
+     background-color: darkkhaki;
+     height: 50vh;
+    position: relative;
+ }
+ .img01{
+     position: absolute;
+    //  top;
+     right:10;
+     bottom: 10px;
+    //  left;
+ }
+ .img02{
+     position: absolute;
+     bottom: 20px;
+     left: 20px;
+     z-index: 5;
+ }
+ .img03{
+     position: absolute;
+     top:0px;
+     right:0;
+     z-index: 10;
+ }
+ .img04{
+     position: absolute;
+     top: 0px;
+     left: 0;
+ }
+ div{
+     background-color: transparentize($color: #a80f82, $amount: .5) ;
+     position: absolute;
+     top:0;
+     right: 0;
+     bottom: 0;
+     left:0;
+ }
