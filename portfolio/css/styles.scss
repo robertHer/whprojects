@@ -1,0 +1,159 @@
+
+html{
+   
+    // background-image: url("../img/bg pattern.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+body{
+    margin: 0;
+
+}
+// Nav bar
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav{
+    background-color: rgba(255, 245, 245, 0.603) ;
+    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+    border: 2px solid rgba(179, 175, 175, 0.637);
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(15, 14, 14);
+    max-width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav ul{
+    display: flex;
+    padding: 5px;
+    // justify-content: space-between;
+    
+}
+nav li{
+    border: 2px solid rgba(179, 175, 175, 0.637);  
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+    margin: 7px;
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+nav li:first-child{
+    margin-right: auto;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+   
+}
+nav a{
+    padding: 2px 15px;
+}
+
+a:hover{
+    color: inherit;
+}
+a{
+    text-decoration:none;
+    
+}
+header{
+
+    padding-bottom: 100px;
+    margin-bottom: 0;
+ 
+   
+}
+div{
+    display: block;
+    background-color: rgba(255, 245, 245, 0.603) ;
+    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+    width: 55vw;
+    height: 40vh;
+    padding: 10px;
+    margin:auto;
+    border: 2px solid rgba(179, 175, 175, 0.637);
+    border-radius: 10px;
+}
+div img{
+   
+    width: 15vw;
+    height: 34vh;
+    margin: 0;
+    margin-right: 15px;
+    float: left; 
+    border: 2px solid rgba(179, 175, 175, 0.637);  
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+}
+div h2{
+    text-align: center;
+    margin-top: 0;
+}
+div p{
+    
+}
+main.about , .exp , .edu , .contact{
+    
+    background-color: rgba(255, 245, 245, 0.603) ;
+
+    height: 400px;
+    max-width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 5px rgba(66, 63, 62, 0.548);
+
+    h2, h1{
+        text-align: center;
+         margin: 0;
+    }
+}
+
+main.exp{
+   
+    h2{
+        
+    }
+}
+
+main.edu{
+   
+    h2{
+        
+    }
+}
+
+main.contact{
+    
+    h2{
+        
+    }
+}
+
+footer{
+    background-color: rgba(255, 245, 245, 0.603) ;
+    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+    border: 2px solid rgba(179, 175, 175, 0.637);
+    border-radius: 10px;
+    color: rgb(15, 14, 14);
+    max-width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
