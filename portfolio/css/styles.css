@@ -1,7 +1,9 @@
 html {
+  background-color: snow;
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -12,6 +14,7 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 nav {
@@ -38,10 +41,11 @@ nav ul {
 nav li {
   border: 2px solid rgba(179, 175, 175, 0.637);
   border-radius: 5px;
-  box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+  box-shadow: 0 0 3px 3px rgba(73, 139, 148, 0.548);
   margin: 7px;
   padding: 3px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 nav li:first-child {
@@ -49,6 +53,8 @@ nav li:first-child {
   text-transform: uppercase;
   border: none;
   box-shadow: none;
+  font-weight: 900;
+  font-size: large;
 }
 
 nav a {
@@ -68,12 +74,12 @@ header {
   margin-bottom: 0;
 }
 
-div {
+div.intro {
   display: block;
   background-color: rgba(255, 245, 245, 0.603);
   box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
   width: 55vw;
-  height: 40vh;
+  height: 45vh;
   padding: 10px;
   margin: auto;
   border: 2px solid rgba(179, 175, 175, 0.637);
@@ -85,10 +91,11 @@ div img {
   height: 34vh;
   margin: 0;
   margin-right: 15px;
+  margin-bottom: 10px;
   float: left;
   border: 2px solid rgba(179, 175, 175, 0.637);
   border-radius: 5px;
-  box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+  box-shadow: 0 0 3px 3px rgba(73, 139, 148, 0.548);
 }
 
 div h2 {
@@ -96,22 +103,95 @@ div h2 {
   margin-top: 0;
 }
 
-main.about, .exp, .edu, .contact {
+main#about, #exp, #edu, #contact {
   background-color: rgba(255, 245, 245, 0.603);
+  box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+  border: 2px solid rgba(179, 175, 175, 0.637);
+  border-radius: 10px;
   height: 400px;
   max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-shadow: 0 0 5px 5px rgba(66, 63, 62, 0.548);
 }
 
-main.about h2, main.about h1, .exp h2, .exp h1, .edu h2, .edu h1, .contact h2, .contact h1 {
+main#about h2, main#about h1, #exp h2, #exp h1, #edu h2, #edu h1, #contact h2, #contact h1 {
   text-align: center;
   margin: 0;
+  padding-top: 15px;
+}
+
+main#exp ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+main#exp li {
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 240px;
+  border: 1px solid rgba(179, 175, 175, 0.637);
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px rgba(73, 139, 148, 0.548);
+  text-align: center;
+}
+
+main#exp li i {
+  color: teal;
+  font-size: 47px;
+}
+
+main#exp li p {
+  padding: 5px;
+}
+
+.form {
+  max-width: 450px;
+  background: #FAFAFA;
+  padding: 30px;
+  margin: 50px auto;
+  border: 2px solid rgba(179, 175, 175, 0.637);
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgba(73, 139, 148, 0.548);
+}
+
+.form ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
+}
+
+.field-style {
+  box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #B0CFE0;
+  border-radius: 5px;
+}
+
+.field-style:focus {
+  box-shadow: 0 0 5px 1px #B0CFE0;
+  border: 1px solid #B0CFE0;
+}
+
+.field-split {
+  width: 49%;
+}
+
+.field-full {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
 }
 
 footer {
