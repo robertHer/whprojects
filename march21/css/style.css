@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  transition: background-color 500ms;
+}
+
+body.colorize {
+  background-image: url("../img/universe.jpg");
+  background-size: cover;
+}
+
+button {
+  border: 1px solid #000406;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #88d2fd;
+}
+
+nav {
+  padding: 10px;
+  background-color: #012438;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav.newcolor {
+  color: teal;
+}
+/*# sourceMappingURL=style.css.map */

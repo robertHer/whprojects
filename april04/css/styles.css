@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: snow;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 47%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
