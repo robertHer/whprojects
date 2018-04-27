@@ -5,16 +5,22 @@ function startGame(){
     console.log(intro);
     document.getElementById('start').innerHTML =  "hello," +  intro + " " + "This is a simple interactive game," ;
 
-
 }
 
 var message = [];
    var stage = 1;
    var number = 1;
+  
+
 
    
-function CharacterInfo(username, ){
-    this.username = username;
-    this.email = email;
-    this.password = password;
-}
+   var select = document.querySelector('select');
+   var html = document.querySelector('html');
+   
+   function update(bgColor, textColor) {
+     html.style.backgroundColor = bgColor;
+     html.style.color = textColor;
+   }
+   
+   
+
