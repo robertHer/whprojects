@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #aeaeae;
+  padding: 10px;
+}
+
+header input {
+  border: 1px solid #999;
+  padding: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main li {
+  width: 33%;
+  margin: 10px;
+}
+
+main img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

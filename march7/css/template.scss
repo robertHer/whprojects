@@ -15,16 +15,20 @@ ul{
 }
 
 header{
-    background-image: url("http://unsplash.it/1000/500?image=388");
-    padding-bottom:100px;
+    background-image: url("../img/Portfolio.png");
+margin-top: 40px;
+    padding-bottom:118px;
     text-align: center;
     color: white;
 }
-button{
+button{ 
     text-transform: uppercase;
     border: none;
     padding: 10px 30px;
     border-radius: 4px;
+}
+button:hover{
+    background-color: yellow;
 }
 .signup{
     text-transform: uppercase;
@@ -38,7 +42,7 @@ text-decoration: none;
 }
 
 nav{
-    background-color: white;
+    background-color: #a8a8a8;
     margin-bottom: 100px;
     color: black;
     padding: 10px;
@@ -54,11 +58,18 @@ nav{
         
         
     }
+    a:hover {
+        background-color: rgb(177, 176, 176);
+        color: black;
+    }
 }
 main{
     text-align: center;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
+    h2{
+        font-size: 40px;
+    }
 }
 main ul{
     display: flex;
@@ -69,8 +80,14 @@ main ul{
 main ul li{
     padding: 40px;
     margin: 20px;
-    border: 1px solid #b9b1b1;
+    border: 3px solid #2b2929;
    
     text-align: center;
     border-radius: 9px;
+}
+
+div.contact{
+    background-color: yellow;
+    margin: 15px;
+    padding: 15px;
 }

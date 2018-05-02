@@ -9,10 +9,7 @@ html{
 
 
 }
-body{
-    margin: 0;
 
-}
 
 
 ul{
@@ -21,65 +18,105 @@ ul{
     list-style: none;
     text-decoration: none;
 }
-nav{
-    background-color: rgba(255, 245, 245, 0.603) ;
-    box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
-    border: 2px solid rgba(179, 175, 175, 0.637);
-    height: 50px;
-    border-radius: 10px;
-    color: rgb(15, 14, 14);
-    max-width:70vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 90px;
-    margin-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+
+body {
+  margin: 0;
 }
-nav ul{
-    display: flex;
-    padding: 5px;
-    // justify-content: space-between;
-    
+
+/* Style the header */
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
 }
-nav li{
-    border: 2px solid rgba(179, 175, 175, 0.637);  
-    border-radius: 5px;
-    box-shadow: 0 0 3px 3px rgba(73, 139, 148, 0.548);
-    margin: 7px;
-    padding: 3px;
-    border-radius: 3px;
+
+/* Style the top navigation bar */
+nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    
 }
-nav li:first-child{
-    margin-right: auto;
-    text-transform: uppercase;
-    border: none;
-    box-shadow: none;
-    font-weight: 900;
-    font-size: large;
+
+/* Change color on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+
+// nav{
+//     background-color: rgba(255, 245, 245, 0.603) ;
+//     box-shadow: 0 0 3px 3px rgba(22, 22, 22, 0.548);
+//     border: 2px solid rgba(179, 175, 175, 0.637);
+//     height: 50px;
+//     border-radius: 10px;
+//     color: rgb(15, 14, 14);
+//     max-width:70vw;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 90px;
+//     margin-top: 30px;
+//     padding-left: 30px;
+//     padding-right: 30px;
+// }
+// nav ul{
+//     display: flex;
+//     padding: 5px;
+
+//     // justify-content: space-between;
+    
+// }
+// nav li{
+//     border: 2px solid rgba(179, 175, 175, 0.637);  
+//     border-radius: 5px;
+//     box-shadow: 0 0 3px 3px rgba(73, 139, 148, 0.548);
+//     margin: 7px;
+//     padding: 3px;
+//     border-radius: 3px;
+//     text-decoration: none;
+//     list-style: none;
+    
+// }
+// nav li:first-child{
+//     margin-right: auto;
+//     text-transform: uppercase;
+//     border: none;
+//     box-shadow: none;
+//     font-weight: 900;
+//     font-size: large;
    
-}
-nav a{
-    padding: 2px 15px;
-}
+// }
+// nav a{
+//     padding: 2px 15px;
+// }
 
-nav li a:hover{
-    background-color: teal;
+// nav li a:hover{
+//     background-color: teal;
     
-}
-a{
-    text-decoration:none;
+// }
+// a{
+//     text-decoration:none;
     
-}
-header{
+// }
+// header{
 
-    padding-bottom: 100px;
-    margin-bottom: 0;
+//     padding-bottom: 100px;
+//     margin-bottom: 0;
  
    
-}
+// }
 div.intro{
     display: block;
     background-color: rgba(255, 245, 245, 0.603) ;
@@ -136,6 +173,7 @@ main#exp{
     ul{
         display: flex;
         justify-content: space-between;
+        list-style: none;
         // margin: 50px;
     }
     li{

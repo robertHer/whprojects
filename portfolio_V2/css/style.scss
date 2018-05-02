@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+      background: #f1f1f1 url(../img/Portfolio.png) no-repeat;
+    //   position: sticky;
+    //   background-color: #f1f1f1;
+    height:316px;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+      overflow: hidden;
+      background-color: #333;
+    //   position: absolute;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  .line1 {
+    width: 1500px;
+    height: 47px;
+    border-bottom: 25px solid black;
+    transform:
+        translateY(400px)
+        translateX(-472px)
+        rotate(132deg); 
+    position: absolute;
+    z-index: -1;
+    margin:3px;
+  }
+
+  .leftContent{
+      background-color: rgb(78, 8, 8);
+      border: 1px solid black;
+      width: 50%;
+      height: 300px;
+      display: flex;
+      position: relative;
+      margin: 0;
+      z-index: -2;
+  }
+  .rightContent{
+      background-color: blue;
+      display: flex;
+      z-index: -2;
+      position: relative;
+      justify-content: flex-end;
+    
+    }
+  .mainContent{
+      background-color: #333;
+      border: 1px solid black;
+      width: 100%;
+      height: 423px;
+      position: relative;
+      z-index: -2;
+  }
+
+
+  .intro{
+    //   background-color: yellow;
+  }
